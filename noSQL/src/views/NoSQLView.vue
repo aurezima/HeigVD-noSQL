@@ -1,6 +1,19 @@
 <script lang="ts">
 import PouchDB from 'pouchdb';
+
+declare interface Post {
+  _id: string,
+  doc:{
+    post_name:string,
+    post_content: string,
+    attributes: {
+      creation_date: string
+    }
+  }
+}
+
 export default {
+
 
   data() {
     return {
@@ -20,6 +33,13 @@ export default {
 
     initDatabase() {
     const db = new PouchDB ('http://localhost:5984/nosql_document_db');
+    if (db) {
+        console.log("Connected to collection 'post'");
+      } else {
+        console.warn("Something went wrong");
+      }
+      this.storage = db;
+
     console.log(db)
     db.info().then(function (info) {
   console.log(info);
