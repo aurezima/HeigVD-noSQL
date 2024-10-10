@@ -1,0 +1,22 @@
+{
+    "post_name": "Post title",
+    "post_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus sem, placerat ac turpis non, aliquet malesuada neque.",
+    "attributes": {
+      "creation_date": "today",
+      "author": "Main author"
+    },
+    "comments": [
+      {
+        "comment": "Comment 1",
+        "author": "Author 1"
+      },
+      {
+        "comment": "Comment 2",
+        "author": "Author 2"
+      },
+      {
+        "comment": "Comment 3",
+        "author": "Author 3"
+      }
+    ]
+  }
