@@ -83,3 +83,18 @@ nav a:first-of-type {
   }
 }
 </style>
+
+<form id="mediaForm">
+  <label for="documentId">Document ID :</label>
+  <input type="text" id="documentId" name="documentId" required />
+
+  <label for="mediaFile">Choisir un fichier :</label>
+  <input type="file" id="mediaFile" name="mediaFile" required />
+
+  <button type="submit">Ajouter un média</button>
+</form>
+
+<div id="mediaList">
+  <!-- Liste des médias associés à un document -->
+</div>
+

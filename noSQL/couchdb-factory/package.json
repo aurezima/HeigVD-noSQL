@@ -1,0 +1,22 @@
+{
+  "name": "couchdb-factory",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vite",
+    "start": "vue-cli-service serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nano": "^10.1.4"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "vite": "^6.0.11"
+  },
+  "description": ""
+}
